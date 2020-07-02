@@ -13,3 +13,12 @@ Practice using git to upload files.
 Use HTML and CSS to imitate USC patient feedback form page.
 
 ![image](https://github.com/Lisha-Xu/freeCodeCamp-frontEnd/blob/master/HTML_CSS/image/surveyForm.png)
+
+### c. Product Landing page
+Use HTML and CSS to contribute a product landing page —— Animal crossing.
+Use nav to achieve internal page reconstruction.
+Use flex and grid to layout. Use iframe to contain video.
+check the email format.
+
+![image](https://github.com/Lisha-Xu/freeCodeCamp-frontEnd/blob/master/HTML_CSS/image/ProductLanding.png)
+
