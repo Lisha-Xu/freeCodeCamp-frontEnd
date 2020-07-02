@@ -1,0 +1,152 @@
+body{
+  font-family: Arial;
+  background-image: url(https://uploadfile.huiyi8.com/2014/0515/20140515024920293.jpg);
+}
+li{
+  list-style: none;
+}
+header{
+  position: fixed;
+  top: 0;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  aline-items: center;
+}
+.logo {
+  width: 60vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.logo > img {
+  width: auto;
+  height: 30%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+nav {
+  font-weight: 400;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+#info{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+#info input[type="email"]{
+  width: 100%;
+  padding: 5px;
+}
+#info input[type="submit"]{
+  width: 50%;
+  margin-top: 10px;
+  height: 30px;
+  font-weight: bold;
+  background-color: orange;
+}
+.multimedia{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#video{
+  height: 300px;
+  width: 500px;
+  margin: 0 10px;
+}
+#image{
+  width: 500px;
+}
+.text-intro{
+  margin: 0 10%;
+  color: #401303;
+}
+
+#detail {
+  margin: 30px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#buy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 10%;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn{
+  background-color: orange;
+  font-weight: bold;
+  width: 40%;
+  height: 30px;
+}
+footer{
+  margin: 30px 10%;
+}
