@@ -16,7 +16,7 @@ Use HTML and CSS to imitate USC patient feedback form page.
 
 ### c. Product Landing page
 Use HTML and CSS to contribute a product landing page —— Animal crossing.
-Use nav to achieve internal page reconstruction.
+Set navigation to jump inside the page.
 Use flex and grid to layout. Use iframe to contain video.
 check the email format.
 
